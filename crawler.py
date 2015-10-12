@@ -19,7 +19,7 @@ def getCrawler(url):
             else:
                 file_img = url +'/'+ src
 
-            print file_img
+            #print file_img
             file_size_img = urllib.urlopen(file_img).info()['Content-Length']
             print 'Size image %s = %s bytes' % (imgnya.get('src'), file_size_img)
     else:
